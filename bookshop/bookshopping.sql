@@ -44,6 +44,7 @@ INSERT INTO customer VALUES (2, '김연아', '대한민국 서울', '010-1000-00
 INSERT INTO customer VALUES (3, '안산', '대한민국 광주광역시', '010-2000-0000');
 INSERT INTO customer VALUES (4, '류현진', '미국 토론토', NULL);
 INSERT INTO customer VALUES (5, '손흥민', '영국 토트넘', '010-3000-0000');
+INSERT INTO customer VALUES (6, '박세리', '대한민국 대전', '011-6000-0000');
 
 --order 자료 삽입
 
@@ -94,5 +95,7 @@ SELECT * FROM book WHERE bookName LIKE '%축구%'  AND price > 20000;
 
 --집계 함수와 GROUP BY
 --고객이 주문한 도서의 총 판매액을 구하시오
+
+COMMIT;
 
 
